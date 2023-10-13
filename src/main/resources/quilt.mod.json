@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "com.github",
+		"id": "deeperanddarker",
+		"version": "${version}",
+		"metadata": {
+			"name": "Deeper And Darker",
+			"description": "A mod to expand upon the deep dark \n\n\n A huge thanks to the people in Doctor4t's discord server for making this possible. ",
+			"contributors": {
+				"Your name here": "Tomas D"
+			},
+			"contact": {
+				"homepage": "https://example.com/",
+				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
+				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+			},
+			"icon": "assets/deeperanddarker/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "tomasd.deeperanddarker.DeeperAndDarker"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.21.0-beta.4"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-beta.30+0.76.0"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.2"
+			}
+		]
+	},
+	"mixin": "deeperanddarker.mixins.json"
+}
