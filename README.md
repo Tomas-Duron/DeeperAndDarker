@@ -1,4 +1,4 @@
-# Quilt Template Mod
+# Deeper and Darker Mod
 
 A vanilla++ mod to add some fun features to the Deep Dark!
 
